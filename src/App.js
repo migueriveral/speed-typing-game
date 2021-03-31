@@ -13,6 +13,7 @@ function App() {
   const textBoxRef = useRef(null)
 
   function handleChange(e) {
+    e.preventDefault()
     const {value} = e.target
     setText(value)
   }

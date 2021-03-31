@@ -1,10 +1,12 @@
 html, body {
   background: black;
-  color: #00b800;
-  margin:0;
+  color: #DB222A;
+  display: block;
+  margin: 0em;
+  max-width: 800px;
   padding: 0;
   padding-top: 10px;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Josefin Sans', sans-serif;
   text-align: center;
 }
 
@@ -13,12 +15,12 @@ body {
 }
 
 button {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Josefin Sans', sans-serif;
   display: block;
   margin: 0 auto;
   border: none;
   background: #a80020;
-  background: #00b800;
+  background: #DB222A;
   padding: 10px 20px;
   text-transform: uppercase;
 }
@@ -33,13 +35,13 @@ h1 {
 }
 
 textarea {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Josefin Sans', sans-serif;
   border: 3px solid black;
   width: 90%;
   margin: 0 auto;
   outline: none;
   height: 200px;
-  background: #00b800;
+  background: #BFDBF7;
   padding: 10px;
 }
 
