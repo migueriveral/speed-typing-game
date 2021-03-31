@@ -1,6 +1,7 @@
 import React, {useState, useEffect, useRef} from 'react'
 import logo from './logo.svg'
 import './App.css'
+import Footer from "./Components/Footer"
 
 function App() {
   const STARTING_TIME = 20
@@ -59,6 +60,7 @@ function App() {
         disabled={isTimeRunning}
       >START</button>
       <h3>Word count: {wordCount}</h3>
+      <Footer />
       
     </div>
   )
